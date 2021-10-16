@@ -1,0 +1,28 @@
+// IMPORTAR SCSS DE BOOTSTRAP
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+// Creando mapa de colores para los botones de bootstrap
+// Modificación del color de fondo y letras de los botones
+
+$colores: (
+  "primary": #f291bf,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+) !default;
+
+@each $color, $value in $colores {
+  .btn-#{$color} {
+    border-radius: 1.25rem;
+    color: #fff !important;
+    @include button-variant($value, $value);
+  }
+}
+// Modificación del bordes de los formularios
+.form-control {
+  border-radius: 1.25rem;
+}

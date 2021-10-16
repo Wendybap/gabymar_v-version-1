@@ -1,0 +1,36 @@
+.footer {
+  width: 100% !important;
+  height: 40px;
+  left: 0px;
+  bottom: 0px;
+
+  &__banner {
+    height: 96px;
+    color: floralwhite;
+    text-align: right;
+    bottom: 0;
+    font-size: 1rem;
+    background-color: #000000;
+    background-image: linear-gradient(to right, #000000, #d70045, #ff89b2);
+
+    &--iconos {
+      text-decoration: none;
+
+      i {
+        color: floralwhite;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+      }
+    }
+    &--up {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      margin: 0 auto;
+    }
+  }
+}
+.footer--fijo {
+  @extend .footer;
+  position: fixed;
+  width: 100%;
+}
