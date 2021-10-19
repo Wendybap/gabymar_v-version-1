@@ -1,0 +1,77 @@
+// Estilo subtitulo principal
+.container {
+  &--subtitulos {
+    color: $color_subtitulos;
+    font-size: $font_subtitulos_principales;
+    margin: 0.5rem auto;
+    text-transform: capitalize;
+    transition: all 2s;
+    font-weight: 700;
+    animation-name: animacionTitulo;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: 0s;
+  }
+  @keyframes animacionTitulo {
+    0% {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    50% {
+      color: #f2b6d7;
+    }
+  }
+}
+// Estilo de las secciones
+.containerE {
+  border-radius: 15px;
+  padding: 10px;
+  align-items: center;
+
+  &--texto {
+    color: $color_subtitulos;
+    font-size: $font_subtitulos;
+    font-weight: 700;
+  }
+  &--Parrafos {
+    font-size: $font_parrafo;
+    color: $color_parrafo;
+  }
+}
+// Estilo de las imagenes
+.formato {
+  width: 100%;
+
+  &--img {
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+  }
+}
+// Estilo para las cards
+.card {
+  margin-bottom: 3rem;
+  border: none !important;
+
+  &--formato {
+    width: 100%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+  }
+}
+// each para degradar el color de los bordes de la foto sección 4
+$maps: (
+  mapas1: $bcolor1,
+  mapas2: $bcolor2,
+  mapas3: $bcolor3,
+  mapas4: $bcolor4,
+);
+@each $mapas, $color in $maps {
+  .card--#{$mapas} {
+    background-color: $color;
+    padding: 1rem;
+  }
+}

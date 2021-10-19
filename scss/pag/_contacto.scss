@@ -1,0 +1,17 @@
+.containerF {
+  &--1:hover {
+    font-size: 5px * 4;
+    background-color: $colorf1;
+    cursor: pointer;
+  }
+  &--2:hover {
+    font-size: 5px * 4;
+    background-color: $colorf2;
+    cursor: pointer;
+  }
+}
+@media (max-width: 810px) {
+  .mapa--responsive {
+    width: 95% !important;
+  }
+}

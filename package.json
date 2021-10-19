@@ -1,0 +1,14 @@
+{
+  "name": "gabymar_v",
+  "version": "1.0.0",
+  "description": "decoraciones y arreglos con globos",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "author": "wendy",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.2"
+  }
+}
