@@ -1,7 +1,7 @@
 {
   "name": "gabymar_v",
   "version": "1.0.0",
-  "description": "decoraciones y arreglos con globos",
+  "description": "Sito web de decoraciones y arreglos con globos",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss:css"
