@@ -1,3 +1,4 @@
+// Estilos generales del sitio
 * {
   margin: 0;
   padding: 0;
@@ -14,18 +15,19 @@ html {
   justify-content: center;
   align-items: center;
 }
+// Variables
 $colorh1: #f291bf;
 $font_subtitulos_principales: 3rem;
 $color_subtitulos: #f291bf;
 $font_subtitulos: 1.5rem;
 $font_parrafo: 1rem;
 $color_parrafo: #000000;
-// color de fondo del mapa de equipo gaby
+// color de fondo del mapa de equipo gaby (Variables)
 $bcolor1: #d90452;
 $bcolor2: #fb4f7b;
 $bcolor3: #ff8eb8;
 $bcolor4: #ffc8e1;
-// color fondo bucles de box y waffles
+// color fondo bucles de box y waffles (Variables)
 $color_bucle: #350017;
 // color formularios
 $colorf1: #ffc8e1;

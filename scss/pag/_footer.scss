@@ -1,3 +1,4 @@
+// Estilos del footer
 .footer {
   width: 100% !important;
   height: 40px;
@@ -29,6 +30,7 @@
     }
   }
 }
+// Aplicacion de extend para la pag de iniciar sesión
 .footer--fijo {
   @extend .footer;
   position: fixed;
