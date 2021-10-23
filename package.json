@@ -10,5 +10,43 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.1.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wendybap/gabymar_v_arcia_version_0.git"
+  },
+  "keywords": [
+    "decoraciones",
+    "arreglos",
+    "decoglobos",
+    "box",
+    "sorpresa",
+    "servicios",
+    "eventos",
+    "fiestas",
+    "infantiles",
+    "waffles",
+    "globos",
+    "helio",
+    "peluches",
+    "desayunos",
+    "alquiler",
+    "de",
+    "mobiliario",
+    "equipo",
+    "gaby",
+    "celebraciones",
+    "latex",
+    "set",
+    "decorativos",
+    "bouquets",
+    "regalos",
+    "arcos",
+    "orgánico"
+  ],
+  "bugs": {
+    "url": "https://github.com/Wendybap/gabymar_v_arcia_version_0/issues"
+  },
+  "homepage": "https://github.com/Wendybap/gabymar_v_arcia_version_0#readme"
 }
