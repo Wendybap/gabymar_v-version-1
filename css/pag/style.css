@@ -11387,8 +11387,9 @@ textarea.form-control-lg {
 
 html,
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Comic Neue", cursive;
   max-width: 100%;
+  font-size: calc(1rem + 0.25vw);
 }
 
 html {
@@ -11465,6 +11466,7 @@ html {
   text-transform: capitalize;
 }
 .container--tituloP {
+  font-family: "Comic Neue", cursive;
   display: inline-block;
   font-size: 4.5rem;
   font-weight: bolder;
@@ -11510,18 +11512,37 @@ html {
 }
 
 .containerE {
-  border-radius: 15px;
-  padding: 10px;
+  padding: 1rem;
   align-items: center;
+}
+.containerE--imgFondo {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.containerE--imgFondo:before {
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 60%;
+  background: url(./../../imagenes/fondo2.png);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
 }
 .containerE--texto {
   color: #f291bf;
   font-size: 1.5rem;
   font-weight: 700;
+  position: relative;
 }
 .containerE--Parrafos {
   font-size: 1rem;
   color: #000000;
+  position: relative;
 }
 
 .formato {
@@ -11532,6 +11553,7 @@ html {
   height: 250px;
   width: 250px;
   object-fit: cover;
+  box-shadow: 0 10px 30px -10px #9f234c;
 }
 
 .card {
@@ -11543,26 +11565,31 @@ html {
   height: 250px;
   width: 250px;
   object-fit: cover;
+  border-radius: 10rem;
 }
 
 .card--mapas1 {
   background-color: #d90452;
-  padding: 1rem;
+  padding: 0.4rem;
+  box-shadow: 0 10px 30px -10px #9f234c;
 }
 
 .card--mapas2 {
   background-color: #fb4f7b;
-  padding: 1rem;
+  padding: 0.4rem;
+  box-shadow: 0 10px 30px -10px #9f234c;
 }
 
 .card--mapas3 {
   background-color: #ff8eb8;
-  padding: 1rem;
+  padding: 0.4rem;
+  box-shadow: 0 10px 30px -10px #9f234c;
 }
 
 .card--mapas4 {
   background-color: #ffc8e1;
-  padding: 1rem;
+  padding: 0.4rem;
+  box-shadow: 0 10px 30px -10px #9f234c;
 }
 
 .carousel-inner {
@@ -11640,6 +11667,10 @@ html {
   background-color: #ffcee3;
   padding: 1rem;
   cursor: pointer;
+}
+
+.img--responsive {
+  border-radius: 10rem;
 }
 
 .containerF--1:hover {

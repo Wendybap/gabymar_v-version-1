@@ -26,20 +26,40 @@
 }
 // Estilo de las secciones
 .containerE {
-  border-radius: 15px;
-  padding: 10px;
+  padding: 1rem;
   align-items: center;
-
+  // Estilo para llevar la imagen de los parrafos al fondo
+  &--imgFondo {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 65%;
+      height: 60%;
+      background: url(./../../imagenes/fondo2.png);
+      background-position: center;
+      background-size: cover;
+      opacity: 0.5;
+    }
+  }
   &--texto {
     color: $color_subtitulos;
     font-size: $font_subtitulos;
     font-weight: 700;
+    position: relative;
   }
   &--Parrafos {
     font-size: $font_parrafo;
     color: $color_parrafo;
+    position: relative;
   }
 }
+
 // Estilo de las imagenes
 .formato {
   width: 100%;
@@ -49,6 +69,7 @@
     height: 250px;
     width: 250px;
     object-fit: cover;
+    box-shadow: 0 10px 30px -10px hsl(340, 64%, 38%);
   }
 }
 // Estilo para las cards
@@ -61,6 +82,7 @@
     height: 250px;
     width: 250px;
     object-fit: cover;
+    border-radius: 10rem;
   }
 }
 // each para degradar el color de los bordes de la foto sección 4
@@ -73,6 +95,7 @@ $maps: (
 @each $mapas, $color in $maps {
   .card--#{$mapas} {
     background-color: $color;
-    padding: 1rem;
+    padding: 0.4rem;
+    box-shadow: 0 10px 30px -10px hsl(340, 64%, 38%);
   }
 }

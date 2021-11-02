@@ -6,9 +6,11 @@
 }
 html,
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Comic Neue", cursive;
   max-width: 100%;
+  @include font-size(calc(1rem + 0.25vw));
 }
+
 html {
   width: 100%;
   height: 100%;
@@ -32,3 +34,5 @@ $color_bucle: #350017;
 // color formularios
 $colorf1: #ffc8e1;
 $colorf2: #ff8eb8;
+// color de los iconos
+$color_icono: #f783ac;
