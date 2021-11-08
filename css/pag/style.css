@@ -11576,8 +11576,8 @@ html {
 .containerE--imgFondo1:before {
   content: "";
   position: absolute;
-  width: 65%;
-  height: 60%;
+  width: 90%;
+  height: 90%;
   background: url(./../../imagenes/fondo4.png);
   background-position: center;
   background-size: cover;
@@ -11594,8 +11594,8 @@ html {
 .containerE--imgFondo3:before {
   content: "";
   position: absolute;
-  width: 65%;
-  height: 60%;
+  width: 120%;
+  height: 120%;
   background: url(./../../imagenes/fondo5.png);
   background-position: center;
   background-size: cover;
