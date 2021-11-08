@@ -7,8 +7,9 @@
 html,
 body {
   font-family: "Comic Neue", cursive;
+  font-size: 1.1rem;
   max-width: 100%;
-  @include font-size(calc(1rem + 0.25vw));
+  // @include font-size(calc(1rem + 0.25vw));
 }
 
 html {

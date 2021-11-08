@@ -1,4 +1,21 @@
 // Estilos del index
+.imagen {
+  margin-top: 0px;
+  padding: 0;
+  &--intro {
+    min-height: 90vh;
+    background-image: url(./../../imagenes/fondo5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+  }
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -17,15 +34,19 @@
     font-family: "Comic Neue", cursive;
     display: inline-block;
     font-size: 4.5rem;
-    font-weight: bolder;
-    margin-top: 1rem;
+    font-weight: 1000;
+    margin-top: 0;
+    padding: 3rem;
     color: $colorh1;
+    position: relative;
   }
   &--eslogan {
     display: block;
     font-size: 1.4rem;
+    font-weight: 700;
     margin-top: 1.2rem;
     text-transform: none;
+    position: relative;
   }
 }
 .card {

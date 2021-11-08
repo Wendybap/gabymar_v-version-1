@@ -19,3 +19,12 @@
     }
   }
 }
+.btn-rounded {
+  position: relative;
+}
+.btn-rounded span i {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}

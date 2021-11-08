@@ -26,6 +26,12 @@
     grid-row-start: span 2;
     background-position: center;
   }
+  &--item:hover {
+    cursor: pointer;
+    transition: all 2s;
+    transform: scale(1.2, 1.2);
+    box-shadow: 0 10px 30px -10px hsl(340, 64%, 38%);
+  }
 }
 
 // bucle de la sección box y waffles con degradado de colores de oscuro a claso

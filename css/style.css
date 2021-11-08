@@ -11388,8 +11388,8 @@ textarea.form-control-lg {
 html,
 body {
   font-family: "Comic Neue", cursive;
+  font-size: 1.1rem;
   max-width: 100%;
-  font-size: calc(1rem + 0.25vw);
 }
 
 html {
@@ -11416,6 +11416,17 @@ html {
   font-weight: bold;
   background-color: floralwhite;
   opacity: 0.5;
+}
+
+.btn-rounded {
+  position: relative;
+}
+
+.btn-rounded span i {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
 }
 
 .footer, .footer--fijo {
@@ -11452,6 +11463,23 @@ html {
   width: 100%;
 }
 
+.imagen {
+  margin-top: 0px;
+  padding: 0;
+}
+.imagen--intro {
+  min-height: 90vh;
+  background-image: url(./../../imagenes/fondo5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -11469,15 +11497,19 @@ html {
   font-family: "Comic Neue", cursive;
   display: inline-block;
   font-size: 4.5rem;
-  font-weight: bolder;
-  margin-top: 1rem;
+  font-weight: 1000;
+  margin-top: 0;
+  padding: 3rem;
   color: #f291bf;
+  position: relative;
 }
 .container--eslogan {
   display: block;
   font-size: 1.4rem;
+  font-weight: 700;
   margin-top: 1.2rem;
   text-transform: none;
+  position: relative;
 }
 
 .card {
@@ -11529,6 +11561,42 @@ html {
   width: 65%;
   height: 60%;
   background: url(./../../imagenes/fondo2.png);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+.containerE--imgFondo1 {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.containerE--imgFondo1:before {
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 60%;
+  background: url(./../../imagenes/fondo4.png);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+.containerE--imgFondo3 {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.containerE--imgFondo3:before {
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 60%;
+  background: url(./../../imagenes/fondo5.png);
   background-position: center;
   background-size: cover;
   opacity: 0.5;
@@ -11619,6 +11687,12 @@ html {
 .container__galery--item:nth-child(5) {
   grid-row-start: span 2;
   background-position: center;
+}
+.container__galery--item:hover {
+  cursor: pointer;
+  transition: all 2s;
+  transform: scale(1.2, 1.2);
+  box-shadow: 0 10px 30px -10px #9f234c;
 }
 
 .bucle--1:hover {

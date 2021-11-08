@@ -28,7 +28,7 @@
 .containerE {
   padding: 1rem;
   align-items: center;
-  // Estilo para llevar la imagen de los parrafos al fondo
+  // Estilo para colocar la imagen de los parrafos al FONDO
   &--imgFondo {
     height: 450px;
     display: flex;
@@ -42,6 +42,42 @@
       width: 65%;
       height: 60%;
       background: url(./../../imagenes/fondo2.png);
+      background-position: center;
+      background-size: cover;
+      opacity: 0.5;
+    }
+  }
+  &--imgFondo1 {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 65%;
+      height: 60%;
+      background: url(./../../imagenes/fondo4.png);
+      background-position: center;
+      background-size: cover;
+      opacity: 0.5;
+    }
+  }
+  &--imgFondo3 {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 65%;
+      height: 60%;
+      background: url(./../../imagenes/fondo5.png);
       background-position: center;
       background-size: cover;
       opacity: 0.5;
