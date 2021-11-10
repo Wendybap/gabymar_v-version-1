@@ -11548,7 +11548,7 @@ html {
   align-items: center;
 }
 .containerE--imgFondo {
-  height: 450px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11558,15 +11558,16 @@ html {
 .containerE--imgFondo:before {
   content: "";
   position: absolute;
-  width: 65%;
-  height: 60%;
-  background: url(./../../imagenes/fondo2.png);
+  width: 60%;
+  height: 100%;
+  background: url("./../../imagenes/fondo2.png");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   opacity: 0.5;
 }
 .containerE--imgFondo1 {
-  height: 450px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11576,15 +11577,16 @@ html {
 .containerE--imgFondo1:before {
   content: "";
   position: absolute;
-  width: 90%;
-  height: 90%;
-  background: url(./../../imagenes/fondo4.png);
+  width: 75%;
+  height: 100%;
+  background: url("./../../imagenes/fondo4.png");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   opacity: 0.5;
 }
 .containerE--imgFondo3 {
-  height: 450px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11594,11 +11596,12 @@ html {
 .containerE--imgFondo3:before {
   content: "";
   position: absolute;
-  width: 120%;
-  height: 120%;
-  background: url(./../../imagenes/fondo5.png);
+  width: 100%;
+  height: 100%;
+  background: url("./../../imagenes/fondo5.png");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   opacity: 0.5;
 }
 .containerE--texto {

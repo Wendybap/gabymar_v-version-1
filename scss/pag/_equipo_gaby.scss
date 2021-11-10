@@ -24,64 +24,39 @@
     }
   }
 }
+
+@mixin getImgBackground($width, $img, $size) {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    width: $width;
+    height: 100%;
+    background: url($img);
+    background-position: center;
+    background-size: $size;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+  }
+}
 // Estilo de las secciones
 .containerE {
   padding: 1rem;
   align-items: center;
   // Estilo para colocar la imagen de los parrafos al FONDO
   &--imgFondo {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    &:before {
-      content: "";
-      position: absolute;
-      width: 65%;
-      height: 60%;
-      background: url(./../../imagenes/fondo2.png);
-      background-position: center;
-      background-size: cover;
-      opacity: 0.5;
-    }
+    @include getImgBackground(60%, "./../../imagenes/fondo2.png", cover);
   }
   &--imgFondo1 {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    &:before {
-      content: "";
-      position: absolute;
-      width: 90%;
-      height: 90%;
-      background: url(./../../imagenes/fondo4.png);
-      background-position: center;
-      background-size: cover;
-      opacity: 0.5;
-    }
+    @include getImgBackground(75%, "./../../imagenes/fondo4.png", cover);
   }
   &--imgFondo3 {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    &:before {
-      content: "";
-      position: absolute;
-      width: 120%;
-      height: 120%;
-      background: url(./../../imagenes/fondo5.png);
-      background-position: center;
-      background-size: cover;
-      opacity: 0.5;
-    }
+    @include getImgBackground(100%, "./../../imagenes/fondo5.png", cover);
   }
   &--texto {
     color: $color_subtitulos;
