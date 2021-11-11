@@ -11469,6 +11469,7 @@ html {
 }
 .imagen--intro {
   min-height: 90vh;
+  width: 100%;
   background-image: url(./../../imagenes/fondo5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -11558,9 +11559,9 @@ html {
 .containerE--imgFondo:before {
   content: "";
   position: absolute;
-  width: 60%;
+  width: 57%;
   height: 100%;
-  background: url("./../../imagenes/fondo2.png");
+  background: url("./../../imagenes/fondo6.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

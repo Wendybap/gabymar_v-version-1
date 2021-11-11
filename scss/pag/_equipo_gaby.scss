@@ -25,7 +25,7 @@
   }
 }
 
-@mixin getImgBackground($width, $img, $size) {
+@mixin imgBackground($width, $img, $size) {
   height: 250px;
   display: flex;
   flex-direction: column;
@@ -50,13 +50,13 @@
   align-items: center;
   // Estilo para colocar la imagen de los parrafos al FONDO
   &--imgFondo {
-    @include getImgBackground(60%, "./../../imagenes/fondo2.png", cover);
+    @include imgBackground(57%, "./../../imagenes/fondo6.png", cover);
   }
   &--imgFondo1 {
-    @include getImgBackground(75%, "./../../imagenes/fondo4.png", cover);
+    @include imgBackground(75%, "./../../imagenes/fondo4.png", cover);
   }
   &--imgFondo3 {
-    @include getImgBackground(100%, "./../../imagenes/fondo5.png", cover);
+    @include imgBackground(100%, "./../../imagenes/fondo5.png", cover);
   }
   &--texto {
     color: $color_subtitulos;
