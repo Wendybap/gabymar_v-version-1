@@ -11464,12 +11464,11 @@ html {
 
 .imagen {
   margin-top: 0px;
-  padding: 0;
+  padding-top: 99px;
 }
 .imagen--intro {
   min-height: 90vh;
-  width: 100%;
-  background-image: url(./../../imagenes/fondo_index.jpg);
+  background-image: url(./../../imagenes/fondo_index1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11481,7 +11480,7 @@ html {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
