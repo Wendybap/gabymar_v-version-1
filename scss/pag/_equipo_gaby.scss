@@ -74,7 +74,6 @@
 // Estilo de las imagenes
 .formato {
   width: 100%;
-
   &--img {
     border-radius: 10px;
     height: 250px;
@@ -110,6 +109,11 @@ $maps: (
   }
 }
 // Media queries
+@media (max-width: 480px) {
+  body {
+    line-height: normal;
+  }
+}
 @media (min-width: 768px) {
   .container {
     &--subtitulos {

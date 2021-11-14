@@ -11707,6 +11707,11 @@ html {
   box-shadow: 0 10px 30px -10px #9f234c;
 }
 
+@media (max-width: 480px) {
+  body {
+    line-height: normal;
+  }
+}
 @media (min-width: 768px) {
   .container--subtitulos {
     font-size: 4rem;
@@ -11820,6 +11825,11 @@ html {
 @media (max-width: 810px) {
   .mapa--responsive {
     width: 95% !important;
+  }
+}
+@media (max-height: 640px) {
+  .margen_inferior {
+    padding-bottom: 11rem;
   }
 }
 .error_404 {
