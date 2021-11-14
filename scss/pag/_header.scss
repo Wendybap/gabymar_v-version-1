@@ -1,7 +1,7 @@
 // Estilo del menu de navegación
 .menu {
   background-color: hsl(339, 87%, 85%);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 
   li a {
     color: #0d0d0d !important;
@@ -12,6 +12,7 @@
     transition: all 0.5s;
 
     &:hover {
+      font-size: 1.8rem;
       border: 1px solid #bf0a5e;
       border-radius: 1px;
       font-weight: bold;
@@ -27,5 +28,5 @@
   position: absolute;
   text-decoration: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }

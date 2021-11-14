@@ -11400,7 +11400,7 @@ html {
 
 .menu {
   background-color: #fab7cf;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .menu li a {
   color: #0d0d0d !important;
@@ -11411,6 +11411,7 @@ html {
   transition: all 0.5s;
 }
 .menu li a:hover {
+  font-size: 1.8rem;
   border: 1px solid #bf0a5e;
   border-radius: 1px;
   font-weight: bold;
@@ -11426,7 +11427,7 @@ html {
   position: absolute;
   text-decoration: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .footer, .footer--fijo {
@@ -11494,7 +11495,7 @@ html {
 .containerIndex--tituloP {
   font-family: "Comic Neue", cursive;
   display: inline-block;
-  font-size: 4.5rem;
+  font-size: 5.5rem;
   font-weight: 1000;
   margin-top: 0;
   padding: 3rem;
@@ -11503,7 +11504,7 @@ html {
 }
 .containerIndex--eslogan {
   display: block;
-  font-size: 1.4rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-top: 1.2rem;
   text-transform: none;
@@ -11526,7 +11527,7 @@ html {
 .container--tituloP {
   font-family: "Comic Neue", cursive;
   display: inline-block;
-  font-size: 4.5rem;
+  font-size: 5.5rem;
   font-weight: 1000;
   margin-top: 0;
   padding: 3rem;
@@ -11535,7 +11536,7 @@ html {
 }
 .container--eslogan {
   display: block;
-  font-size: 1.4rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-top: 1.2rem;
   text-transform: none;
@@ -11646,12 +11647,12 @@ html {
 }
 .containerE--texto {
   color: #f291bf;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
   position: relative;
 }
 .containerE--Parrafos {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #000000;
   position: relative;
 }
@@ -11789,6 +11790,9 @@ html {
   border-radius: 10rem;
 }
 
+.containerF {
+  font-size: 1.5rem;
+}
 .containerF--1:hover {
   font-size: 20px;
   background-color: #ffc8e1;
