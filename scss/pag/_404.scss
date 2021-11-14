@@ -1,4 +1,8 @@
 .error_404 {
+  background-image: url(./../../imagenes/icono-error.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   display: flex;
   flex-direction: column;
