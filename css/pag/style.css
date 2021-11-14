@@ -11442,7 +11442,7 @@ html {
   color: floralwhite;
   text-align: right;
   bottom: 0;
-  font-size: 1rem;
+  font-size: 1.5rem;
   background-color: #000000;
   background-image: linear-gradient(to right, #000000, #d70045, #ff89b2);
 }
@@ -11467,9 +11467,11 @@ html {
 
 .imagen {
   margin-top: 0px;
+  padding-top: 50px;
 }
 .imagen--intro {
-  min-height: 90vh;
+  min-height: 80vh;
+  max-width: 100%;
   background-image: url(./../../imagenes/fondo_index1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -11487,7 +11489,7 @@ html {
   align-items: center;
 }
 .containerIndex__intro {
-  padding-top: 99px;
+  padding-top: 86px;
   padding-bottom: 40px;
 }
 .containerIndex --h1 {
@@ -11505,9 +11507,10 @@ html {
 }
 .containerIndex--eslogan {
   display: block;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-top: 1.2rem;
+  padding-top: 1.2rem;
   text-transform: none;
   position: relative;
 }
@@ -11537,9 +11540,10 @@ html {
 }
 .container--eslogan {
   display: block;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-top: 1.2rem;
+  padding-top: 1.2rem;
   text-transform: none;
   position: relative;
 }
@@ -11552,14 +11556,13 @@ html {
   border: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 768px) {
   .container--tituloP {
-    font-size: 3.2rem;
+    font-size: 10rem;
   }
 
   .container--eslogan {
-    width: 99%;
-    margin: auto;
+    font-size: 4rem;
   }
 }
 .container--subtitulos {
@@ -11648,7 +11651,7 @@ html {
 }
 .containerE--texto {
   color: #f291bf;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   position: relative;
 }
@@ -11704,6 +11707,15 @@ html {
   box-shadow: 0 10px 30px -10px #9f234c;
 }
 
+@media (min-width: 768px) {
+  .container--subtitulos {
+    font-size: 4rem;
+  }
+
+  .containerE--texto {
+    font-size: 3rem;
+  }
+}
 .carousel-inner {
   max-height: 30rem;
 }

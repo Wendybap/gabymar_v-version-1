@@ -61,7 +61,6 @@
   &--texto {
     color: $color_subtitulos;
     font-size: $font_subtitulos;
-
     font-weight: 700;
     position: relative;
   }
@@ -108,5 +107,18 @@ $maps: (
     background-color: $color;
     padding: 0.4rem;
     box-shadow: 0 10px 30px -10px hsl(340, 64%, 38%);
+  }
+}
+// Media queries
+@media (min-width: 768px) {
+  .container {
+    &--subtitulos {
+      font-size: 4rem;
+    }
+  }
+  .containerE {
+    &--texto {
+      font-size: 3rem;
+    }
   }
 }
