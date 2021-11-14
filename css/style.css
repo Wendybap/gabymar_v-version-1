@@ -11464,7 +11464,6 @@ html {
 
 .imagen {
   margin-top: 0px;
-  padding-top: 99px;
 }
 .imagen--intro {
   min-height: 90vh;
@@ -11477,6 +11476,38 @@ html {
   justify-content: center;
   align-items: center;
   opacity: 1;
+}
+
+.containerIndex {
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.containerIndex__intro {
+  padding-top: 99px;
+  padding-bottom: 40px;
+}
+.containerIndex --h1 {
+  text-transform: capitalize;
+}
+.containerIndex--tituloP {
+  font-family: "Comic Neue", cursive;
+  display: inline-block;
+  font-size: 4.5rem;
+  font-weight: 1000;
+  margin-top: 0;
+  padding: 3rem;
+  color: #f291bf;
+  position: relative;
+}
+.containerIndex--eslogan {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 1.2rem;
+  text-transform: none;
+  position: relative;
 }
 
 .container {
@@ -11519,6 +11550,16 @@ html {
   border: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .container--tituloP {
+    font-size: 3.2rem;
+  }
+
+  .container--eslogan {
+    width: 99%;
+    margin: auto;
+  }
+}
 .container--subtitulos {
   color: #f291bf;
   font-size: 3rem;

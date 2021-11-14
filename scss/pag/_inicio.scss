@@ -1,10 +1,10 @@
 // Estilos del index
+
 .imagen {
   margin-top: 0px;
-  padding-top: 99px;
+  // padding-top: 99px;
   &--intro {
     min-height: 90vh;
-    // width: 100%;
     background-image: url(./../../imagenes/fondo_index1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,14 +17,18 @@
   }
 }
 
-.container {
+@mixin getContainer($noIndex) {
   width: 100%;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
 
   &__intro {
-    padding-top: 120px;
+    @if $noIndex {
+      padding-top: 120px;
+    } @else {
+      padding-top: 99px;
+    }
     padding-bottom: 40px;
   }
 
@@ -50,11 +54,29 @@
     position: relative;
   }
 }
+
+.containerIndex {
+  @include getContainer(false);
+}
+
+.container {
+  @include getContainer(true);
+}
 .card {
   margin-bottom: 3rem;
 
   &--fondo {
     background-color: transparent;
     border: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container--tituloP {
+    font-size: 3.2rem;
+  }
+  .container--eslogan {
+    width: 99%;
+    margin: auto;
   }
 }
