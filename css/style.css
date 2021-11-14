@@ -11811,11 +11811,7 @@ html {
   }
 }
 .error_404 {
-  background-image: url(./../../imagenes/icono-error.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
