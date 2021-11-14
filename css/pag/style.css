@@ -11387,11 +11387,11 @@ textarea.form-control-lg {
 html,
 body {
   font-family: "Comic Neue", cursive;
-  font-size: 1.1rem;
   max-width: 100%;
 }
 
 html {
+  font-size: 62.5%;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -11400,6 +11400,7 @@ html {
 
 .menu {
   background-color: #fab7cf;
+  font-size: 1.5rem;
 }
 .menu li a {
   color: #0d0d0d !important;
@@ -11475,7 +11476,6 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  opacity: 1;
 }
 
 .containerIndex {
@@ -11672,11 +11672,10 @@ html {
   border: none !important;
 }
 .card--formato {
-  width: 100%;
   height: 250px;
   width: 250px;
   object-fit: cover;
-  border-radius: 10rem;
+  border-radius: 25rem;
 }
 
 .card--mapas1 {

@@ -90,11 +90,10 @@
   border: none !important;
 
   &--formato {
-    width: 100%;
     height: 250px;
     width: 250px;
     object-fit: cover;
-    border-radius: 10rem;
+    border-radius: 25rem;
   }
 }
 // each para degradar el color de los bordes de la foto sección 4
