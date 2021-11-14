@@ -2,9 +2,10 @@
 
 .imagen {
   margin-top: 0px;
-  // padding-top: 99px;
+  padding-top: 50px;
   &--intro {
-    min-height: 90vh;
+    min-height: 80vh;
+    max-width: 100%;
     background-image: url(./../../imagenes/fondo_index1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,7 +27,7 @@
     @if $noIndex {
       padding-top: 120px;
     } @else {
-      padding-top: 99px;
+      padding-top: 86px;
     }
     padding-bottom: 40px;
   }
@@ -37,7 +38,7 @@
   &--tituloP {
     font-family: "Comic Neue", cursive;
     display: inline-block;
-    font-size: 5.5rem;
+    font-size: $font_titulo_index;
     font-weight: 1000;
     margin-top: 0;
     padding: 3rem;
@@ -46,9 +47,10 @@
   }
   &--eslogan {
     display: block;
-    font-size: 3rem;
+    font-size: $font_eslogan_index;
     font-weight: 700;
     margin-top: 1.2rem;
+    padding-top: 1.2rem;
     text-transform: none;
     position: relative;
   }
@@ -69,13 +71,12 @@
     border: none;
   }
 }
-
-@media only screen and (max-width: 768px) {
+// Aplicando media queries
+@media (min-width: 768px) {
   .container--tituloP {
-    font-size: 3.2rem;
+    font-size: 10rem;
   }
   .container--eslogan {
-    width: 99%;
-    margin: auto;
+    font-size: 4rem;
   }
 }
