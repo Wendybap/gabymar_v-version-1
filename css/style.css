@@ -11832,7 +11832,7 @@ html {
     width: 95% !important;
   }
 }
-@media (max-height: 640px) {
+@media (max-height: 700px) {
   .margen_inferior {
     padding-bottom: 11rem;
   }
