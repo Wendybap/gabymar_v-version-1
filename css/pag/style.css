@@ -11424,9 +11424,7 @@ html {
   position: relative;
 }
 
-.btn-rounded span i {
-  position: absolute;
-  text-decoration: none;
+.btn-rounded i {
   color: white;
   font-size: 1.8rem;
 }
@@ -11662,9 +11660,10 @@ html {
 }
 
 .formato {
-  width: 100%;
+  max-width: 100%;
 }
 .formato--img {
+  margin: 0 auto;
   border-radius: 10px;
   height: 250px;
   width: 250px;
@@ -11681,6 +11680,8 @@ html {
   width: 250px;
   object-fit: cover;
   border-radius: 25rem;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .card--mapas1 {
@@ -11805,7 +11806,7 @@ html {
 }
 
 .img--responsive {
-  border-radius: 10rem;
+  border-radius: 30rem;
 }
 
 .containerF {
@@ -11820,6 +11821,10 @@ html {
   font-size: 20px;
   background-color: #ff8eb8;
   cursor: pointer;
+}
+
+.icono {
+  max-width: 100%;
 }
 
 @media (max-width: 810px) {

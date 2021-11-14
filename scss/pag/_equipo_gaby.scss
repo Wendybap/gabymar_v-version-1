@@ -73,8 +73,9 @@
 
 // Estilo de las imagenes
 .formato {
-  width: 100%;
+  max-width: 100%;
   &--img {
+    margin: 0 auto;
     border-radius: 10px;
     height: 250px;
     width: 250px;
@@ -92,6 +93,8 @@
     width: 250px;
     object-fit: cover;
     border-radius: 25rem;
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
 // each para degradar el color de los bordes de la foto sección 4
