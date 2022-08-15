@@ -4,19 +4,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-html,
-body {
-  font-family: "Comic Neue", cursive;
-  max-width: 100%;
-}
-
 html {
+  font-family: "Comic Neue", cursive;
   font-size: 62.5%;
-  width: 100%;
-  height: 100%;
   justify-content: center;
   align-items: center;
 }
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
 // Variables
 $colorh1: #f291bf;
 $font_titulo_index: 5.5rem;
